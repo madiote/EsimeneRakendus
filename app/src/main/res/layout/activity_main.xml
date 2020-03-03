@@ -13,8 +13,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/dice_1"
-    />
+        android:src="@drawable/empty_dice"
+        tools:src="@drawable/dice_1"
+    /> <!-- tools is only for the preview -->
 
     <Button
         android:id="@+id/roll_button"
@@ -25,12 +26,12 @@
         android:text="@string/roll"
         />
 
-    <TextView
+    <!-- <TextView
         android:id="@+id/sample_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textSize="45sp"
         android:text="Hello World!"
-        />
+        /> -->
 </LinearLayout>
