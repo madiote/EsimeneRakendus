@@ -17,7 +17,8 @@ class MainActivity : AppCompatActivity() {
         sample_text.text = randomDice().toString()
     }
     private fun rollDice() {
-        Toast.makeText(this, randomDice().toString(), Toast.LENGTH_SHORT).show()
+        //Toast.makeText(this, randomDice().toString(), Toast.LENGTH_SHORT).show()
+        sample_text.text = randomDice().toString()
     }
 
     /**
