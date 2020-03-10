@@ -9,7 +9,7 @@ auto randomNumber(int start, int end){
 }
 // JNI wrapper function
 extern "C" JNIEXPORT jint JNICALL
-Java_com_tlu_esimenerakendus_MainActivity_randomDice(
+Java_com_tlu_esimenerakendus_SecondFragment_randomDice(
         JNIEnv* env,
         jobject /* this */) {
     return randomNumber(1, 6);
