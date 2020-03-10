@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<androidx.coordinatorlayout.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,21 +7,9 @@
     android:orientation="vertical"
     android:layout_gravity="center_vertical"
     tools:context=".MainActivity">
+    //Menu
 
-    <TextView
-        android:id="@+id/sample_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:textSize="45sp"
-        android:text="Hello World!"
-        />
-    <Button
-        android:id="@+id/roll_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:textSize="45sp"
-        android:text="@string/roll"
-        />
-</LinearLayout>
+    //Sisu
+
+    //Footer
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
